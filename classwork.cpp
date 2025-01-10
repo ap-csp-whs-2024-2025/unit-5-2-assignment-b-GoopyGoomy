@@ -8,9 +8,23 @@ void displayList(std::vector<T> const &v);
 int main()
 {
     // You can follow along with any code in class here
+    std::vector<std::string> names = {"Peter", "Bruce", "Steve", "Tony", "Natasha", "Clint", "Wanda", "Hope", "Danny", "Carol"};
+    std::vector<int> numbers = {100, 50, 10, 1, 2, 7, 11, 17, 53, -8, -4, -9, -72, -64, -80};
 
-    
-    return 0;
+    // Problem 1
+    int curr_index = 0;
+    while (curr_index < names.size())
+    {
+        std::cout << names[curr_index] << " ";
+        curr_index = curr_index + 2;
+    }
+
+    //Problem 2
+
+
+    // Problem 5
+
+   
 }
 
 
